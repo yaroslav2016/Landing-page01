@@ -6,6 +6,9 @@ body{
 	font-weight:400;
 	min-width: 320px;
 }
+logo{
+	
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
