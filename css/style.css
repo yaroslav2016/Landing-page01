@@ -91,7 +91,60 @@ transition: background .5s;
 .btn-default:hover{
 	background: #fff;
 }
-/*=========== / HEADER ==========================================*/
+/*=========== / finish HEADER ==========================================*/
+
+/*============ start speakers =======================*/
+#speakers{
+	padding: 90px 0;
+	border-bottom:2px solid #f0f0f1 ;
+}
+#speakers h2{
+	color: #828689;
+}
+.large{
+	color: #828689;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.section-tabs{
+	border: 3px solid #ececec;
+	border-radius: 2px;
+}
+.section-tabs .nav-tabs li:not(active){
+	background: #ececec;
+}
+.section-tabs .nav-tabs.nav-justified li a, 
+.section-tabs .nav-tabs.nav-justified li a.active a,
+.section-tabs .nav-tabs.nav-justified li a.active a:focus,
+.section-tabs .nav-tabs.nav-justified li a.active a:hover{
+	border-radius: 0;
+	border: none;
+	font-family: Ubuntu, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	outline: 0;
+}
+.section-tabs .nav-tabs li.active a{
+	color: #9097a1;
+}
+.nav-tabs li a{
+	color: #abb1ba;
+}
+.section-tabs .tab-content{
+	padding: 25px 20px;
+}
+.section-tabs .tab-content ul{
+	padding-left: 10px;
+}
+.section-tabs .tab-content ul li{
+	line-height: 30px;
+}
+.section-tabs .tab-content ul li i{
+	font-size: 15px;
+	color: #2cc7c1;
+	margin-right: 10px;
+}
+/*============ finish speakers =======================*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
