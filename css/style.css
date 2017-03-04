@@ -49,9 +49,9 @@ h2{
 	display: table-row;
 }
 .section-cell{
-display: table-cell;
-text-align: center;
-vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 .section-center{
 	max-width: 550px;
@@ -69,15 +69,15 @@ vertical-align: middle;
 	font-size: 20px;
 }
 .btn{
-font-family: Montserrat; sans-serif;
-color: #fff;
-font-size: 17px;
-text-transform: uppercase;
-padding: 10px 20px;
-margin: 0 10px;
-border:none;
-color: #fff;
-transition: background .5s;
+	font-family: Montserrat; sans-serif;
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border:none;
+	color: #fff;
+	transition: background .5s;
 }
 .btn-primary{
 	background: #7ea4e8;
@@ -144,7 +144,71 @@ transition: background .5s;
 	color: #2cc7c1;
 	margin-right: 10px;
 }
+.speakers-head{
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+.speakers-head h2{
+	color:#6a7079;
+}
+.speakers h3{
+	color: #777a7d;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+/*.speakers-footer*/
+.speakers-footer{
+	margin-top: 70px;
+}
+
+.speakers-footer .large p{
+	max-width: 100px;
+}
+/*Стили для санимациии пикеров*/
+.item > div {/*Для дива в котором находится картинка*/
+	position: relative;/*позиционируется картинка по размеру дива */
+}
+.front{/*Картинка*/
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	cursor: pointer;
+	/*opacity: 0.2;  скрывает
+	for IE
+	left: 50%;
+	margin-left: -70%;*/
+}
+.back{/*item  twitter*/
+	width: 140px;
+	height: 140px;
+	background: #6bd8d3;
+	display: inline-block;/**/
+	border-radius: 50%;
+	opacity: 0;
+}
+.back i{
+	line-height: 140px;/*то бы картинка твитера была по центру*/
+	font-size: 30px;/*размер картинки твитера*/
+	color: #fff;
+}
+.item > div:hover .front{
+	opacity: .2;
+}
+.item > div:hover .back{
+	opacity: 1;
+}
+.item > div:hover .back h3{
+	color: #6bd8d3;
+}
+.speakers-footer{
+	margin-top: 70px;
+}
+/*конец анимации для спикеров*/
 /*============ finish speakers =======================*/
+
+
+
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -162,21 +226,21 @@ transition: background .5s;
 }
 @media only screen and (max-width : 600px) {
 	#header{
-	
-	min-height: 300px;/*Минимальная высота хедера, что бы при уминьшении не сьезжали кнопки */
-}
+		
+		min-height: 300px;/*Минимальная высота хедера, что бы при уминьшении не сьезжали кнопки */
+	}
 	.section-center{
 		max-width: 320px;
 	}
 	#header h1{
-	font-size: 20px;
-}
-#header p{
-	font-size: 16px;
-}
-.section-btn{
-	font-size: 15px;
-}
+		font-size: 20px;
+	}
+	#header p{
+		font-size: 16px;
+	}
+	.section-btn{
+		font-size: 15px;
+	}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
