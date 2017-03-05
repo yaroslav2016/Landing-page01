@@ -203,6 +203,15 @@ h2{
 .speakers-footer{
 	margin-top: 70px;
 }
+/*===========================start section events========================*/
+#events{
+	padding: 90px 0;
+	
+}
+.link{
+	text-transform: uppercase;
+}
+/*===========================finish section events========================*/
 /*конец анимации для спикеров*/
 /*============ finish speakers =======================*/
 
@@ -217,7 +226,16 @@ h2{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+#speakers{
+	padding: 20px 0;
+}
+.speakers-head,
+.speakers-footer{
+	margin: 20px 0;
+}
+.row-item-col{
+margin: 20px 0;
+}
 }
 
 /* Small Devices, Tablets */
