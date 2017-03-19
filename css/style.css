@@ -210,14 +210,41 @@ h2{
 }
 .link{
 	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 17px;
 }
 /*===========================finish section events========================*/
 /*конец анимации для спикеров*/
 /*============ finish speakers =======================*/
-
-
-
-
+.time {
+	background: #2cc7c1;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 5px;
+	border-radius: 2px;
+	margin-right: 25px;
+}
+.collapse-state{
+	color:#2cc7c1;
+}
+.collapse-link{
+	color: #747a84;
+	font-size: 18px;
+	font-weight: 500;
+}
+.collapse-link:hover{
+	color: #747a84;
+}
+.collapse p{
+	color: #999;
+}
+.tab-collapse{
+	margin-bottom: 20px;
+}
+.row-item{
+	margin-top: 100px;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -226,12 +253,16 @@ h2{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-#speakers{
+#speakers,
+#events{
 	padding: 20px 0;
 }
 .speakers-head,
 .speakers-footer{
 	margin: 20px 0;
+}
+.row-item{
+	margin-top: 30px;
 }
 .row-item-col{
 margin: 20px 0;

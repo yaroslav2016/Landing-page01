@@ -231,36 +231,60 @@
 	<section id="events">
 		<div class="container">
 			<div class="row">
-				<div class= "col-md-6">
+				<div class= "col-md-6 row-item-col">
 					<h2>Event schedule</h2>
 					<p class="large">Sed perspiciatis unde omnis iste natus error sit voluptatem accusantim doloremque</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, similique aperiam quam aspernatur, quasi nobis, aut tempore nulla, tempora perspiciatis nam minus autem officiis adipisci et illum. Deleniti, qui! Quas.</p>
-					<a href="#" class="link glyphicon glyphicon-save">All Schedule (PDF)</a>
+					<a href="#" class="link"><i class="fa fa-arrow-circle-down"></i>All Schedule (PDF)</a>
 				</div>
+
 				<div class="col-md-6">
-					Vkladki
 					<div class="section-tabs">
 						<!-- Nav tabs -->
 						<ul class="nav nav-tabs nav-justified" role="tablist">
-							<li role="presentation" class="active"><a href="#nav18" aria-controls="home" role="tab" data-toggle="tab">nov19</a></li>
-							<li role="presentation"><a href="#nav19" aria-controls="profile" role="tab" data-toggle="tab">nov19</a></li>
-							<li role="presentation"><a href="#nav20" aria-controls="profile" role="tab" data-toggle="tab">nov20</a></li>
+							<li role="presentation" class="active"><a href="#nav18" aria-controls="home" role="tab" data-toggle="tab">nov 18</a></li>
+							<li role="presentation"><a href="#nav19" aria-controls="profile" role="tab" data-toggle="tab">nov 19</a></li>
+							<li role="presentation"><a href="#nav20" aria-controls="profile" role="tab" data-toggle="tab">nov 20</a></li>
 						</ul>
 
 						<!-- Tab panes -->
 						<div class="tab-content clearfix">
-							<div role="tabpanel" class="tab-pane fade in active" id="nav18"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda aut sint modi tempora ratione. Doloribus ad eligendi porro itaque fugit optio ratione, suscipit, aspernatur nobis blanditiis eveniet iure amet.</p>
-								<ul class="list-unstyled pull-left">
-									<li><i class="fa fa-check" aria-hidden="true"></i>Nemo onim ipsam voluptatem</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>Neque porro quisquam</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>Quis autem vel eum</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
+							<div role="tabpanel" class="tab-pane fade in active" id="nav18">
+								<p class="tab-collapse clearfix">
+									<span class="time">10:00 AM</span>						
+									<a role="button" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapseExample" class="collapse-link">Nemo enim ipsam voluptatem</a>
+									<span class="pull-right collapse-state"><i class="fa fa-plus-circle"></i></span>	
+								</p>
+								<div class="collapse" id="collapse1">
+									<p>1.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda a~t sint modi tempora ratione. Doloribus ad eligendi porro itaque fugit optio ratione, suscipit, aspernatur nobis blanditiis eveniet iure amet.</p>
+									</div>
+									
 
-								</ul>
-							</div>
+									<p class="tab-collapse clearfix">
+									<span class="time">02:00 PM</span>						
+									<a role="button" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapseExample" class="collapse-link">Neque porro quisquam est</a>
+									<span class="pull-right collapse-state"><i class="fa fa-plus-circle"></i></span>	
+								</p>
+								<div class="collapse" id="collapse2">
+									
+									<p>2.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda aut sint modi tempora ratione. Doloribus ad eligendi porro itaque fugit optio ratione, suscipit, aspernatur nobis blanditiis eveniet iure amet.</p>
+									</div>
+									
+
+								<p class="tab-collapse clearfix">
+									<span class="time">08:00 AM</span>						
+									<a role="button" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapseExample" class="collapse-link">Quis autem ver eum iure reprehenerit</a>
+									<span class="pull-right collapse-state"><i class="fa fa-plus-circle"></i></span>	
+								</p>
+								<div class="collapse" id="collapse3">
+									<p>3.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda aut sint modi tempora ratione. Doloribus ad eligendi porro itaque fugit optio ratione, suscipit, aspernatur nobis blanditiis eveniet iure amet.</p>
+									</div>
+									</div>
+
 							<div role="tabpanel" class="tab-pane" id="nav19">
 								<div class="tab-content clearfix">
-									<div role="tabpanel" class="tab-pane active" id="nav19"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda aut sint modi tempora ratione. Doloribus ad eligendi porro itaque fugit optio ratione, suscipit, aspernatur nobis blanditiis eveniet iure amet.</p>
+									<div role="tabpanel" class="tab-pane active" id="nav19">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda aut sint modi tempora ratione. Doloribus ad eligendi porro itaque fugit optio ratione, suscipit, aspernatur nobis blanditiis eveniet iure amet.</p>
 										<ul class="list-unstyled pull-left">
 											<li><i class="fa fa-check" aria-hidden="true"></i>Nemo onim ipsam voluptatem</li>
 											<li><i class="fa fa-check" aria-hidden="true"></i>Neque porro quisquam</li>
@@ -269,21 +293,33 @@
 										</ul>
 									</div>
 								</div>
+
 							</div>
-							<div role="tabpanel" class="tab-pane active" id="nav20"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda aut sint modi tempora ratione. Doloribus ad eligendi porro itaque fugit optio ratione, suscipit, aspernatur nobis blanditiis eveniet iure amet.</p>
-								<ul class="list-unstyled pull-left">
-									<li><i class="fa fa-check" aria-hidden="true"></i>Nemo onim ipsam voluptatem</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>Neque porro quisquam</li>
-								</ul>
+
+							<div role="tabpanel" class="tab-pane a" id="nav20">
+							<h3>NOv20</h3>
+								<p>The text</p>
+								
 							</div>
 						</div>
-					</div>
-				</div>
-			</div><!-- finish section-tabs -->
-		</div>
-	</div>
-</div>	
+					</div><!-- finish section-tabs -->
+				</div><!-- finish coll-md-6 -->
+			</div><!-- finish row -->
 
+		<div class="row row-item"><!-- start row -->
+			<div class="col-md-6 row-item-col">
+				<div class="embed-responsive embed-responsive-16by9">
+  					<iframe class="embed-responsive-item" src="..."></iframe>
+				</div>
+			</div>		
+			<div class="col-md-6 row-item-col">
+				<h2>Promoyion video</h2>
+				<p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ab praesentium iure fuga modi, temporibus doloribus vitae, omnis soluta dolor non sapiente ullam tempore adipisci dolore esse maiores laudantium?
+				</p>
+				<a href="#" class="link">YOUTUBE CHANEL<i class="fa fa-arrow-circle-right"></i></a>
+			</div>		
+		</div><!-- finish row -->	
+		</div><!-- finish container -->
 </section>		
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
