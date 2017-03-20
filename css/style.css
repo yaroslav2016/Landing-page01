@@ -253,20 +253,20 @@ h2{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-#speakers,
-#events{
-	padding: 20px 0;
-}
-.speakers-head,
-.speakers-footer{
-	margin: 20px 0;
-}
-.row-item{
-	margin-top: 30px;
-}
-.row-item-col{
-margin: 20px 0;
-}
+	#speakers,
+	#events{
+		padding: 20px 0;
+	}
+	.speakers-head,
+	.speakers-footer{
+		margin: 20px 0;
+	}
+	.row-item{
+		margin-top: 30px;
+	}
+	.row-item-col{
+		margin: 20px 0;
+	}
 }
 
 /* Small Devices, Tablets */
