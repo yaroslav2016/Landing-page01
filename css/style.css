@@ -245,6 +245,27 @@ h2{
 .row-item{
 	margin-top: 100px;
 }
+/*====Form====*/
+#form{
+	padding: 90px 0;
+	background: #f3f3f3;
+}
+.section-form{
+	background: #fff;
+	padding: 40px;
+	border-radius: 2px;
+	margin-bottom: 50px;
+}
+.section-form input,
+.section-form select{
+	height: 44px;
+	background: #efefef;
+	padding-right: 25px;
+}
+
+
+
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
