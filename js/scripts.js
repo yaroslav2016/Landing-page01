@@ -7,4 +7,8 @@ $(function(){
 	});
 	$('#myForm').validator();
 
+	new WOW({
+		offcet:100
+	}).init();
+
 });
